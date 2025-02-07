@@ -11,20 +11,18 @@ https://templatemo.com/tm-583-festava-live
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff; /* Pure white for contrast */
-  --primary-color:                #4B0082; /* Indigo purple (regal primary) */
-  --primary-color2:                #ffffff;
-  --secondary-color:              #B8860B; /* Warm gold (replaces orange-red) */
-  --section-bg-color:              #FFF8DC; /* Warm cream color that blends well with gold and purple tones */
-  --custom-btn-bg-color:          #B8860B; /* Gold for buttons */
-  --custom-btn-bg-hover-color:    #DAA520; /* Darker gold for hover states */
-  --dark-color:                   #000080; /* Navy blue (replaces pure black) */
-  --p-color:                      #fffefe; /* Lighter gray to provide better contrast while maintaining a soft tone */
-  --p-color2:                      #0a0a0a;
-
-  --border-color:                 #B8860B; /* Gold accents for borders */
-  --link-hover-color:             #800080; /* Deep purple for link hovers */
-
+  --white-color:                  #ffffff;
+  --primary-color:                #33A1C9; /* Main blue */
+  --primary-color2:               #ffffff;
+  --secondary-color:              #6A0DAD; /* New purple color */
+  --section-bg-color:             #F0F8FF; /* Light blue background */
+  --custom-btn-bg-color:          #6A0DAD;
+  --custom-btn-bg-hover-color:    #8A2BE2; /* Slightly lighter purple for hover */
+  --dark-color:                   #1C5D7D; /* Darker blue */
+  --p-color:                      #333333;
+  --p-color2:                     #0a0a0a;
+  --border-color:                 #66C4E0; /* Lighter blue for borders */
+  --link-hover-color:             #9932CC; /* Light purple for link hovers */
 
   --body-font-family:             'Outfit', sans-serif;
 
@@ -62,7 +60,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color); /* Navy blue for headings */
+  color: var(--dark-color);
 }
 
 h1,
@@ -71,7 +69,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--font-weight-bold); /* Bold font for headings */
+  font-weight: var(--font-weight-bold);
 }
 
 h1 {
@@ -99,13 +97,13 @@ h6 {
 }
 
 p {
-  color: var(--p-color); /* Soft gray for paragraphs */
+  color: var(--p-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light); /* Light font weight for readability */
+  font-weight: var(--font-weight-light);
 }
 
 ul li {
-  color: var(--p-color); /* Soft gray for list items */
+  color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
 }
@@ -118,21 +116,21 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color); /* Indigo color for links */
+  color: var(--primary-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-hover-color); /* Deep purple for link hover */
+  color: var(--link-hover-color);
 }
 
 b,
 strong {
-  font-weight: var(--font-weight-bold); /* Bold text for emphasis */
+  font-weight: var(--font-weight-bold);
 }
 
 .link-fx-1 {
-  color: var(--white-color); /* White color for the link effect */
+  color: var(--white-color);
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -144,7 +142,7 @@ strong {
 }
 
 .link-fx-1:hover {
-  color: var(--link-hover-color); /* Deep purple hover color */
+  color: var(--link-hover-color);
 }
 
 .link-fx-1:hover::before {
@@ -301,7 +299,7 @@ strong {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   border: 2px solid var(--custom-btn-bg-color);
   border-radius: var(--border-radius-large);
-  color: var(--dark-color); /* Navy text for contrast */
+  color: var(--white-color);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -309,15 +307,15 @@ strong {
   padding: 12px 28px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  box-shadow: 0 4px 15px rgba(75, 0, 130, 0.2);
+  box-shadow: 0 4px 15px rgba(51, 161, 201, 0.2);
 }
 
 .custom-btn:hover {
-  background: linear-gradient(135deg, var(--custom-btn-bg-hover-color) 0%, #8B4513 100%);
+  background: linear-gradient(135deg, var(--custom-btn-bg-hover-color) 0%, var(--primary-color) 100%);
   color: var(--white-color);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(75, 0, 130, 0.3);
-  border-color: var(--primary-color); /* Purple accent on hover */
+  box-shadow: 0 6px 20px rgba(51, 161, 201, 0.3);
+  border-color: var(--primary-color);
 }
 
 .custom-border-btn {
@@ -528,6 +526,13 @@ strong {
 
 .hero-section .section-overlay {
   z-index: 2;
+  opacity: 0Here's the continuation of the text stream from the cut-off point:
+
+uppercase;
+}
+
+.hero-section .section-overlay {
+  z-index: 2;
   opacity: 0.45;
 }
 
@@ -548,7 +553,7 @@ strong {
 -----------------------------------------*/
 .about-section {
   background-image: url('../images/edward-unsplash-blur.jpg');
-  background-color: #704010;
+  background-color: #33A1C9;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -578,7 +583,7 @@ strong {
   -webkit-backdrop-filter: blur(5px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: var(--border-radius-medium);
-  border: 1px solid rgba(184, 134, 11, 0.3); /* Updated border color */
+  border: 1px solid rgba(51, 161, 201, 0.3);
   position: absolute;
   bottom: 0;
   right: 0;
@@ -586,7 +591,6 @@ strong {
   margin: 20px;
   padding: 35px;
 }
-
 
 
 /*---------------------------------------
@@ -646,8 +650,8 @@ strong {
 }
 
 .artists-hover {
-  background-color: var(--primary-color); /* Indigo purple as the main background */
-  background-color: rgba(75, 0, 130, 0.75); /* Updated to match the indigo purple */
+  background-color: var(--primary-color);
+  background-color: rgba(51, 161, 201, 0.75);
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -688,14 +692,14 @@ strong {
 -----------------------------------------*/
 .schedule-section {
   background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
-  background-color: #4B0082; /* Changed to your primary color (Indigo purple) */
+  background-color: #33A1C9;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .table-responsive {
-  filter: drop-shadow(2px 2px 4px rgba(75, 0, 130, 0.3)); /* Subtle shadow with your primary color */
+  filter: drop-shadow(2px 2px 4px rgba(51, 161, 201, 0.3));
 }
 
 .schedule-table {
@@ -705,17 +709,17 @@ strong {
 }
 
 .schedule-table .bg-warning {
-  background: #B8860B !important; /* Gold for warning background */
+  background: #6A0DAD !important;
 }
 
 .schedule-table thead th {
-  background-color: var(--secondary-color); /* Warm gold */
+  background-color: var(--secondary-color);
 }
 
 .schedule-table th,
 .schedule-table tr,
 .schedule-table td {
-  border-bottom-color: #B8860B; /* Gold for borders */
+  border-bottom-color: #6A0DAD;
   padding: 30px;
 }
 
@@ -725,7 +729,7 @@ strong {
 }
 
 .schedule-table thead th {
-  border-right: 1px solid #B8860B; /* Gold border on the right */
+  border-right: 1px solid #6A0DAD;
   border-bottom-color: transparent;
 }
 
@@ -759,11 +763,10 @@ strong {
 
 .schedule-table h3,
 .schedule-table p {
-  color: var(--white-color); /* Keep text color as white for contrast */
+  color: var(--white-color);
   position: relative;
   z-index: 2;
 }
-
 
 
 /*---------------------------------------
@@ -837,52 +840,51 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  color: var(--p-color); /* Soft gray text for readability */
+  color: var(--p-color);
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
   outline: none;
-  border: 1px solid var(--border-color); /* Gold border to match theme */
-  background: var(--section-bg-color); /* Soft cream background for inputs */
+  border: 1px solid var(--border-color);
+  background: var(--section-bg-color);
 }
 
 .custom-form button[type="submit"] {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); /* Smooth transition from indigo to gold */
-  border: 2px solid var(--border-color); /* Gold border */
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  border: 2px solid var(--border-color);
   border-radius: var(--border-radius-large);
-  color: var(--dark-color); /* Navy text for contrast */
+  color: var(--white-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-bold); /* Bold text for emphasis */
+  font-weight: var(--font-weight-bold);
   transition: all 0.3s ease;
   margin-bottom: 0;
-  box-shadow: 0 4px 15px rgba(75, 0, 130, 0.2); /* Subtle indigo shadow */
+  box-shadow: 0 4px 15px rgba(51, 161, 201, 0.2);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: linear-gradient(135deg, var(--custom-btn-bg-hover-color) 0%, #8B4513 100%); /* Hover gradient from gold to brown */
-  box-shadow: 0 6px 20px rgba(75, 0, 130, 0.3); /* Enhanced indigo glow on hover */
-  transform: translateY(-2px); /* Subtle lift effect */
-  border-color: var(--primary-color); /* Purple accent on hover */
-  color: var(--white-color); /* White text on hover for better contrast */
+  background: linear-gradient(135deg, var(--custom-btn-bg-hover-color) 0%, var(--primary-color) 100%);
+  box-shadow: 0 6px 20px rgba(51, 161, 201, 0.3);
+  transform: translateY(-2px);
+  border-color: var(--primary-color);
+  color: var(--white-color);
 }
-
 
 
 /*---------------------------------------
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--dark-color); /* Navy blue for a strong footer background */
+  background-color: var(--dark-color);
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
 }
 
 .site-footer-top {
-  background-color: var(--secondary-color); /* Warm gold for top section */
+  background-color: var(--secondary-color);
   background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
@@ -891,17 +893,17 @@ strong {
 }
 
 .site-footer-bottom {
-  border-top: 1px solid #B8860B; /* Gold border for separation */
+  border-top: 1px solid var(--border-color);
   margin-top: 60px;
 }
 
 .site-footer-title {
-  color: var(--primary-color2); /* Indigo purple for title */
+  color: var(--primary-color2);
 }
 
 .site-footer-link,
 .copyright-text {
-  color: var(--white-color); /* White text for links and copyright */
+  color: var(--white-color);
 }
 
 .site-footer-links {
@@ -917,7 +919,6 @@ strong {
 .copyright-text {
   font-size: var(--copyright-font-size);
 }
-
 
 
 /*---------------------------------------
@@ -1074,4 +1075,3 @@ strong {
     font-size: 20px;
   }
 }
-
